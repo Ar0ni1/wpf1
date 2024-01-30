@@ -1,0 +1,33 @@
+﻿<Window x:Class="кресты_и_нули.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:кресты_и_нули"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Loaded="MainWindow_Loaded">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button Name="button00" Content="" Grid.Row="0" Grid.Column="0" FontSize="72" FontFamily="Times New Roman" Click="Button_Click"/>
+        <Button Name="button01" Content="" Grid.Row="0" Grid.Column="1" FontSize="72" FontFamily="Times New Roman" Click="Button_Click"/>
+        <Button Name="button02" Content="" Grid.Row="0" Grid.Column="2" FontSize="72" FontFamily="Times New Roman" Click="Button_Click"/>
+
+        <Button Name="button10" Content="" Grid.Row="1" Grid.Column="0" FontSize="72" FontFamily="Times New Roman" Click="Button_Click"/>
+        <Button Name="button11" Content="" Grid.Row="1" Grid.Column="1" FontSize="72" FontFamily="Times New Roman" Click="Button_Click"/>
+        <Button Name="button12" Content="" Grid.Row="1" Grid.Column="2" FontSize="72" FontFamily="Times New Roman" Click="Button_Click"/>
+
+        <Button Name="button20" Content="" Grid.Row="2" Grid.Column="0" FontSize="72" FontFamily="Times New Roman" Click="Button_Click"/>
+        <Button Name="button21" Content="" Grid.Row="2" Grid.Column="1" FontSize="72" FontFamily="Times New Roman" Click="Button_Click"/>
+        <Button Name="button22" Content="" Grid.Row="2" Grid.Column="2" FontSize="72" FontFamily="Times New Roman" Click="Button_Click"/>
+    </Grid>
+</Window>
